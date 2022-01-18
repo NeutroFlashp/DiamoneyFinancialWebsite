@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,200&family=Poppins:wght@500&family=Rubik:ital,wght@0,400;0,700;1,300&display=swap');
+:root{
+    --background-color-website: #0A112A;
+    --font-color-menu: #FFFFFF;
+    --text-color-sign-up: linear-gradient(#C3C6FF, #AEF0FF);
+}
+
+body{
+    background-color: var(--background-color-website);
+    font-family: Rubik;
+}
+
+a{
+    color: var(--font-color-menu);
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.logo{
+    position: absolute;
+    width: 153px;
+    height: 18px;
+    left: 128px;
+    top: 63px;
+}
+
+.nav-bar{
+    position: absolute;
+    width: 1440px;
+    height: 143px;
+    left: 0px;
+    top: 0px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    position: absolute;
+    width: 463px;
+    height: 21px;
+    left: 628px;
+    top: 62px;
+}
+
+.log-sign-user{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    position: absolute;
+    width: 165px;
+    height: 24px;
+    left: 1155px;
+    top: 61px;  
+}
+
+.sign-up{
+    background: -webkit-linear-gradient(#C3C6FF,#AEF0FF);             
+    -webkit-background-clip: text;            
+    -webkit-text-fill-color: transparent;             
+    color: rgb(71, 99, 255); 
+}
+
+.text{
+    position: absolute;
+    width: 584px;
+    height: 278px;
+    left: 120px;
+    top: 223px;
+}
+
+.simply-different{
+    background: -webkit-linear-gradient(#656BFE,#5FE2FF);             
+    -webkit-background-clip: text;            
+    -webkit-text-fill-color: transparent;             
+    color: rgb(71, 99, 255); 
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.better-financial{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 76px;
+    background: -webkit-linear-gradient(#C3C6FF,#AEF0FF);             
+    -webkit-background-clip: text;            
+    -webkit-text-fill-color: transparent;             
+    color: rgb(71, 99, 255); 
+}
+
+.connecting-all{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 175%;
+    color: var(--font-color-menu);
+}
+
+.card-image{
+    position: absolute;
+    width: 597.61px;
+    height: 531.12px;
+    left: 739px;
+    top: 241px;
+}
